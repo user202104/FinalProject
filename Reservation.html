@@ -8,8 +8,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+    <link href="Styles/Style.css" rel="stylesheet">
     <title> Wonderful luxury hotel</title>
-    <h1>Welcome to the hotel of your dreams!</h1>
+    <div class="mainheader">
+        <h1>Welcome to the hotel of your dreams!</h1>
+    </div>
 
     <div class="container">
         <header
@@ -24,7 +27,7 @@
                 <li><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li>
                 <li><a href="About.html" class="nav-link px-2 link-dark">About</a></li>
                 <li><a href="Rooms.html" class="nav-link px-2 link-dark">Rooms</a></li>
-                <li><a href="Pricing.html" class="nav-link px-2 link-dark">Pricing</a></li>
+                <li><a href="Restaurant.html" class="nav-link px-2 link-dark">Restaurant</a></li>
                 <li><a href="Reservation.html" class="nav-link px-2 link-dark">Reservation form</a></li>
                 <li><a href="Contact.html" class="nav-link px-2 link-dark">Contact us</a></li>
             </ul>
@@ -37,49 +40,50 @@
 
     <Form>
         <label for="fname">First name:</label>
-    <br>
+        <br>
         <input type="text" id="fname" name="fname" placeholder="First Name" required>
-    </br>
+        </br>
         <label for="lname">Last name:</label>
-    <br>
+        <br>
         <input type="text" id="lname" name="lname" placeholder="Last Name" required>
-    <br>
+        <br>
         <label for="email">Email:</label>
-    <br>
-        <input type="email" id="email" name="email" placeholder="email@email.com" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" required>
-    <br>
+        <br>
+        <input type="email" id="email" name="email" placeholder="email@email.com"
+            pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" required>
+        <br>
         <label for="phone">Phone:</label>
-    <br>
+        <br>
         <input type="phone" id="phone" name="phone" placeholder="+37123456789" pattern="\+37[0-2]2[0-9]{7}" required>
-    <br>
+        <br>
         <label for="room">Room:</label>
-    <br>
+        <br>
         <select room="Room" required>
             <option value="room1">Room 1</option>
             <option value="room2">Room 2</option>
             <option value="room3">Room 3</option>
             <option value="room4">Room 4</option>
         </select>
-    <br>
+        <br>
         <label for="checkin">Check in:</label>
-    <br>
+        <br>
         <input type="date" id="checkin" name="checkin" required>
-    <br>
+        <br>
 
         <label for="checkout">Check out:</label>
-    <br>
+        <br>
         <input type="date" id="checkout" name="checkout" required>
-    <br>
+        <br>
 
         <label for="adult">Adults:</label>
-    <br>
+        <br>
         <input type="number" id="adult" name="adult" required>
-    <br>
+        <br>
 
         <label for="children">Children:</label>
-    <br>
+        <br>
         <input type="number" id="children" name="children">
-    <br>
+        <br>
 
         <input type="submit" value="Submit">
 
