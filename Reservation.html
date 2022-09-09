@@ -11,6 +11,8 @@
         <script src="https://kit.fontawesome.com/99b5f1fd8a.js" crossorigin="anonymous"></script>
 
     <link href="Styles/Style.css" rel="stylesheet">
+    <link href="Styles/StyleForm.css" rel="stylesheet">
+
     <title> Wonderful luxury hotel</title>
     <div class="mainheader">
         <h1>Welcome to the hotel of your dreams!</h1>
@@ -39,7 +41,8 @@
 </head>
 
 <body>
-
+    <h2>Book your room now!</h2>
+<div class="container2">
     <Form>
         <label for="fname">First name:</label>
         <br>
@@ -74,24 +77,24 @@
 
         <label for="checkout">Check out:</label>
         <br>
-        <input type="date" id="checkout" name="checkout" required>
+        <input type="date" id="checkout" name="checkout" required >
         <br>
 
         <label for="adult">Adults:</label>
         <br>
-        <input type="number" id="adult" name="adult" required>
+        <input type="number" id="adult" name="adult"  min="1" placeholder="1" required>
         <br>
 
         <label for="children">Children:</label>
         <br>
-        <input type="number" id="children" name="children">
+        <input type="number" id="children" name="children" min="0" >
         <br>
 
         <input type="submit" value="Submit">
 
         <input type="reset">
     </Form>
-
+</div>
 
 </body>
 
