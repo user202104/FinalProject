@@ -1,10 +1,9 @@
 
 
 h2{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     width: 100%;
-    background-image: url("lobby.jpg");
     padding-bottom: 50px;
     padding-top: 50px;
     background-position-y: center;
@@ -32,12 +31,11 @@ h4{
     padding-right: 10%;
 }
 
-h5{
-    color: rgb(87, 77, 65);
-    text-align: center;
-    font-size: small;
+.images{
+
+    object-fit: cover;
     width: 100%;
-    padding-left: 10%;
-    padding-bottom: 70px;
+    height: 400px;
+    opacity: 0.9;
 
 }
