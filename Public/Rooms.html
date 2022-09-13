@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-  crossorigin="anonymous"></script>
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/99b5f1fd8a.js" crossorigin="anonymous"></script>
 
   <link href="Styles/Style.css" rel="stylesheet">
@@ -17,9 +17,12 @@
   </div>
 
   <div class="container">
-    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+    <header
+      class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
       </a>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
@@ -31,12 +34,89 @@
         <li><a href="Contact.html" class="nav-link px-2 link-dark">Contact us</a></li>
       </ul>
 
-     </header>
+    </header>
   </div>
 </head>
 
 <body>
-  
+  <div class="container">
+    <table style="width:100%">
+      <thead>
+        <tr>
+          <th style="width:12%"></th>
+          <th style="width:22%">Single room <i class="fa-solid fa-person"></i></th>
+          <th style="width:22%"> Double room <i class="fa-solid fa-person"></i><i class="fa-solid fa-person"></i></th>
+          <th style="width:22%"> Family suite <i class="fa-solid fa-person"></i><i class="fa-solid fa-person"></i><i class="fa-solid fa-child-reaching"></i><i class="fa-solid fa-child-reaching"></i></th>
+          <th style="width:22%"> Group room <i class="fa-solid fa-people-group"></i></th>
+        </tr>
+        <tr>
+          <th> Room description</th>
+          <td>Room for 1 person. <br><b><u>NOT</u></b> suitable for children</td>
+          <td>A room for a couple or a couple with a small child</td>
+          <td>A room for max 5 people - 2 adults with 2 children and a small child</td>
+          <td>A room for 4 people. <br> <b><u>NOT</u></b> suitable for children</td>
+        </tr>
+        <tr>
+          <th> Beds</th>
+          <td>1 single bed</td>
+          <td>1 double bed</td>
+          <td>1 double bed <br> 2 single beds</td>
+          <td>4 single beds</td>
+        </tr>
+        <tr>
+          <th> Bathroom</th>
+          <td> Shower available</td>
+          <td> Shower and bath available</td>
+          <td> Shower and bath available</td>
+          <td> 2 bathrooms with shower included en suite</td>
+        </tr>
+        <tr>
+          <th>Other amenities</th>
+          <td> <i class="fa-solid fa-wifi"></i> Free Wifi <br>
+            <i class="fa-solid fa-tv"></i> Tv and a sound system <br>          
+            <i class="fa-solid fa-martini-glass"></i> Minibar and snacks available in room<br>
+            <i class="fa-solid fa-mug-saucer"></i> Breakfast, lunch and/or dinner available on request <br>
+            <i class="fa-solid fa-square-parking"></i> Parking included <br>
+          </td>
+          <td>
+            <i class="fa-solid fa-child-reaching"></i> Child friendly room<br>
+            <i class="fa-solid fa-wifi"></i> Free Wifi <br>
+            <i class="fa-solid fa-tv"></i> Tv and a sound system <br>
+            <i class="fa-solid fa-square-parking"></i> Parking included <br>
+            <i class="fa-solid fa-martini-glass"></i> Minibar, snacks, Champagne on arrival, breakfast, lunch and/or dinner available on request <br>
+          </td>
+          <td>
+            <i class="fa-solid fa-child-reaching"></i> Child friendly room<br>
+            <i class="fa-solid fa-wifi"></i> Free Wifi <br>
+            <i class="fa-solid fa-tv"></i> Tv and a sound system <br>
+            <i class="fa-solid fa-square-parking"></i> Parking included <br>
+            <i class="fa-solid fa-martini-glass"></i> Minibar, snacks, Breakfast, lunch and/or dinner available on request <br>
+          </td>
+          <td>
+            <i class="fa-solid fa-wifi"></i> Free Wifi <br>
+            <i class="fa-solid fa-tv"></i> Tv and a sound system <br>
+            <i class="fa-solid fa-martini-glass"></i> Minibar and snacks available in room<br>
+            <i class="fa-solid fa-mug-saucer"></i> Breakfast. lunch and dinner available on request <br>
+            <i class="fa-solid fa-square-parking"></i> Parking included <br>
+          </td>
+        </tr>
+        <tr>
+          <th>Pricing</th>
+          <td> 80 EUR/per night </td>
+          <td> 120 EUR/per night </td>
+          <td> 145 EUR/per night </td>
+          <td> 160 EUR/per night </td>
+        </tr>
+        <tr>
+          <th>Current availability</th>
+          <td><B>ROOMS AVAILABLE!</B></td>
+          <td><B>ROOMS AVAILABLE!</B></td>
+          <td><B>ROOMS AVAILABLE!</B></td>
+          <td><B>ROOMS AVAILABLE!</B></td>
+          </tr>
+      </thead>
+    </table>
+  </div>
 </body>
 
 </html>
