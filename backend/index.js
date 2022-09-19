@@ -3,10 +3,6 @@ const express = require("express");
 const app = express();
 const sqlite3 = require('sqlite3').verbose();
 
-const frontend_path = '/home/jolita/projects/FinalProject/'
-// const index_path = '/home/jolita/projects/FinalProject/Public/index.html/'
-
-
 let db = new sqlite3.Database('backend/database.sql', (err) => {
   if (err) {
     return console.error(err.message);
