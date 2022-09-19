@@ -16,7 +16,11 @@ app.listen(5000, () => {
 })
 
 
+app.post('/make_reservation', (request, response) =>{
 
+ console.log(request.params)
+
+})
 
 // app.get('/', (req, response) =>{
 //
