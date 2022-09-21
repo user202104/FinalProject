@@ -27,8 +27,8 @@ app.post('/make_reservation', (request, response) =>{
 
   let reservation = request.body
 
-  db.run("INSERT INTO reservations (firstname, lastname, email) VALUES (?,?,?)",
-    [reservation.fname, reservation.lname, reservation.email], function (err, result) {
+  db.run("INSERT INTO reservations (firstname, lastname, email, phone, room, checkin, checkout, adults, children) VALUES (?,?,?,?,?,?,?,?,?)",
+    [reservation.fname, reservation.lname, reservation.email, reservation.phone, reservation.room, reservation.checkin, reservation.checkout, reservation.adult, reservation.children  ], function (err, result) {
     if (err) throw err;
 
     fs.readFile('Public/Reservation.html', 'utf8', function(err, data) {
