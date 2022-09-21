@@ -45,23 +45,23 @@
     <Form action="/make_reservation" method = "post" id="reservation_form">
       <label for="fname">First name:</label>
       <br>
-      <input type="text" id="fname" name="fname" placeholder="First Name">
+      <input type="text" id="fname" name="fname" placeholder="First Name" required>
       </br>
       <label for="lname">Last name:</label>
       <br>
-      <input type="text" id="lname" name="lname" placeholder="Last Name">
+      <input type="text" id="lname" name="lname" placeholder="Last Name"required>
       <br>
       <label for="email">Email:</label>
       <br>
-      <input type="email" id="email" name="email" placeholder="email@email.com" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}">
+      <input type="email" id="email" name="email" placeholder="email@email.com" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" required>
       <br>
       <label for="phone">Phone:</label>
       <br>
-      <input type="phone" id="phone" name="phone" placeholder="+37123456789" >
+      <input type="phone" id="phone" name="phone" placeholder="+37123456789" required>
       <br>
       <label for="room">Room:</label>
       <br>
-      <select name="room">
+      <select name="room" required>
         <option value="1">Single room</option>
         <option value="2">Double room</option>
         <option value="3">Group room</option>
@@ -71,22 +71,22 @@
       <br>
       <label for="checkin">Check in:</label>
       <br>
-      <input type="date" id="checkin" name="checkin" >
+      <input type="date" id="checkin" name="checkin" required>
       <br>
 
       <label for="checkout">Check out:</label>
       <br>
-      <input type="date" id="checkout" name="checkout">
+      <input type="date" id="checkout" name="checkout" required>
       <br>
 
       <label for="adult">Adults:</label>
       <br>
-      <input type="number" id="adult" name="adult" min="1" placeholder="1">
+      <input type="number" id="adult" name="adult" min="1" placeholder="1" required>
       <br>
 
       <label for="children">Children:</label>
       <br>
-      <input type="number" id="children" name="children" min="0">
+      <input type="number" id="children" name="children" min="0" required>
       <br>
 
       <input type="submit" value="Submit">

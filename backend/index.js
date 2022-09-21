@@ -37,7 +37,7 @@ app.post('/make_reservation', (request, response) =>{
 
         let html_file = cheerio.load(data);
 
-        html_file('.container2').replaceWith('<div>Reservation successful</div>')
+        html_file('.container2').replaceWith('<div class="text-center"><div class="alert alert-success" role="alert">Reservation successful</div></div>')
 
         response.send(html_file.html())
 
