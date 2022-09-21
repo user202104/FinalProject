@@ -7,6 +7,6 @@ database.sql - SQLITE database (path backend/database.sql)
 1. npm install (installs dependencies)
 2. npm start
 
-** List of reservations **
+**List of reservations**
 
 Table of reservations is shown in console after submit for testing purpose
